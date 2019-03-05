@@ -40,40 +40,40 @@
 #define U_MIN_PIN          -1
 #define V_MIN_PIN          -1
 #define W_MIN_PIN          -1
-#define X_STOP_PIN         PC1
-#define Y_STOP_PIN         PC3
-#define Z_STOP_PIN         PC5
+#define X_STOP_PIN         PA8
+#define Y_STOP_PIN         PB15
+#define Z_STOP_PIN         PB14
 
 //
 // Steppers
 //
-#define X_STEP_PIN         PA0
-#define X_DIR_PIN          PB10
-#define X_ENABLE_PIN       PB2
+#define X_STEP_PIN         PB11
+#define X_DIR_PIN          PB12
+#define X_ENABLE_PIN       PC15
 
-#define Y_STEP_PIN         PA1
-#define Y_DIR_PIN          PB11
-#define Y_ENABLE_PIN       PB2
+#define Y_STEP_PIN         PB2
+#define Y_DIR_PIN          PB10
+#define Y_ENABLE_PIN       PC15
 
-#define Z_STEP_PIN         PA2
-#define Z_DIR_PIN          PB12
-#define Z_ENABLE_PIN       PB2
+#define Z_STEP_PIN         PB0
+#define Z_DIR_PIN          PB1
+#define Z_ENABLE_PIN       PC15
 
-#define E0_STEP_PIN        PA8
-#define E0_DIR_PIN         PB13
-#define E0_ENABLE_PIN      PB2
+#define E0_STEP_PIN        PC5
+#define E0_DIR_PIN         PC4
+#define E0_ENABLE_PIN      PC15
 
 /**
  * TODO: Currently using same Enable pin to all steppers.
  */
 
-#define E1_STEP_PIN        PA9
-#define E1_DIR_PIN         PB14
-#define E1_ENABLE_PIN      PB2
+#define E1_STEP_PIN        PA7
+#define E1_DIR_PIN         PA6
+#define E1_ENABLE_PIN      PC15
 
-#define E2_STEP_PIN        PA10
-#define E2_DIR_PIN         PB15
-#define E2_ENABLE_PIN      PB2
+#define E2_STEP_PIN        PA5
+#define E2_DIR_PIN         PA4
+#define E2_ENABLE_PIN      PC15
 
 //
 // Misc. Functions
@@ -85,16 +85,16 @@
 // Heaters / Fans
 //
 #define HEATER_0_PIN       PA3   // EXTRUDER 1
-#define HEATER_1_PIN       PC6
+#define HEATER_1_PIN       PA0
 
-#define HEATER_BED_PIN     PB7   // BED
+#define HEATER_BED_PIN     PA2   // BED
 
 //
 // Temperature Sensors
 //
-#define TEMP_BED_PIN       PB1   // ANALOG NUMBERING
-#define TEMP_0_PIN         PA4   // ANALOG NUMBERING
-#define TEMP_1_PIN         PA5   // ANALOG NUMBERING
+#define TEMP_BED_PIN       PC3   // ANALOG NUMBERING
+#define TEMP_0_PIN         PC0   // ANALOG NUMBERING
+#define TEMP_1_PIN         PC2   // ANALOG NUMBERING
 
 //
 // LCD Pins
