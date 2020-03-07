@@ -42,7 +42,8 @@
 #define W_MIN_PIN          -1
 #define X_STOP_PIN         PA8
 #define Y_STOP_PIN         PB15
-#define Z_STOP_PIN         PB14
+//#define Z_STOP_PIN         PB14
+#define Z_MIN_PIN          PB14
 
 //
 // Steppers
